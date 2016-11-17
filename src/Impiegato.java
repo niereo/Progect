@@ -21,4 +21,19 @@ public class Impiegato {
      this.impegnato = false;
     System.out.println("ho aggiunto un impiegato di nome " + n +" "+  c + " che ha come codice: "+cod);
       }
+    public String getNome()
+    {
+        return this.nome;
+        
+    }
+     public String getCognome()
+    {
+        return this.cognome;
+        
+    }
+      public String getCodImpiegato()
+    {
+        return this.codImpiegato;
+        
+    }
 }

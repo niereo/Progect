@@ -18,5 +18,7 @@ public class Zoo {
         Biglietto b = new Biglietto(p);
         b.setPrezzo(k);
         System.out.println(b.getPrezzo());
+        System.out.println(i.getNome()+" "+i.getCognome());
+        System.out.println(i.getCodImpiegato());
     }
 }
