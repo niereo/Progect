@@ -14,6 +14,7 @@ public class Zoo {
         float k = (float) 5.99;
         System.out.println("zoo");
         Animale a = new Animale("Alex", "leone");
+        Impiegato i = new Impiegato ("Franco","Buccia","12345678");
         Biglietto b = new Biglietto(p);
         b.setPrezzo(k);
         System.out.println(b.getPrezzo());
