@@ -1,4 +1,5 @@
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
@@ -21,12 +22,15 @@ public class Zoo {
         Impiegato i = new Impiegato ("Franco","Buccia","12345678");
         Direttore d = new Direttore ("Adolf","Hitler");
         GregorianCalendar g = new GregorianCalendar ();
+        SimpleDateFormat sdf;
+        sdf = new SimpleDateFormat();
         Biglietto b = new Biglietto(p);
         b.setPrezzo(k);
         System.out.println(b.getPrezzo());
         System.out.println(i.getNome()+" "+i.getCognome());
         System.out.println(i.getCodImpiegato());
         System.out.println (g.get(Calendar.DATE));
+        System.out.println(sdf.format(g.getTime()));
        
     }
 }
