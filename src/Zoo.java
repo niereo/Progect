@@ -31,6 +31,8 @@ public class Zoo {
         System.out.println(i.getCodImpiegato());
         System.out.println (g.get(Calendar.DATE));
         System.out.println(sdf.format(g.getTime()));
-       
+        System.out.println (g.get(Calendar.DATE));
+       System.out.println(a.getNome());
+       System.out.println(a.getSpecie());
     }
 }

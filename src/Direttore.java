@@ -3,8 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-import java.util.Calendar;
-import java.util.GregorianCalendar;
+
 /**
  *
  * @author Roberto
@@ -12,24 +11,22 @@ import java.util.GregorianCalendar;
 public class Direttore {
     private final String nome;
     private final String cognome;
-    private GregorianCalendar data;
+        //Costruttore della classe Direttore
     public Direttore(String n,String c)
     {
       this.nome = n;
       this.cognome = c;
-      this.data= data;
+      
       System.out.println ("Il direttore dello zoo è " + n +" "+  c);
       
     }
-    public int GregorianCalendar()
-    {        
-        return  GregorianCalendar.DAY_OF_MONTH;
-    }
-    
+   
+    //Metodo che ritorna il nome del direttore
     public String getNome()
     {
         return this.nome;
     }
+    //Metodo che ritorna il cognome del direttore
     public String getCognome()
     {
         return this.cognome;
