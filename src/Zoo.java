@@ -1,3 +1,6 @@
+
+import java.util.GregorianCalendar;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -16,11 +19,13 @@ public class Zoo {
         Animale a = new Animale("Alex", "leone");
         Impiegato i = new Impiegato ("Franco","Buccia","12345678");
         Direttore d = new Direttore ("Adolf","Hitler");
+        GregorianCalendar g = new GregorianCalendar ();
         Biglietto b = new Biglietto(p);
         b.setPrezzo(k);
         System.out.println(b.getPrezzo());
         System.out.println(i.getNome()+" "+i.getCognome());
         System.out.println(i.getCodImpiegato());
+        System.out.println (GregorianCalendar.DAY_OF_MONTH);
        
     }
 }
