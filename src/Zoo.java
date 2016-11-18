@@ -1,4 +1,5 @@
 
+import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 /*
@@ -25,7 +26,7 @@ public class Zoo {
         System.out.println(b.getPrezzo());
         System.out.println(i.getNome()+" "+i.getCognome());
         System.out.println(i.getCodImpiegato());
-        System.out.println (GregorianCalendar.DAY_OF_MONTH);
+        System.out.println (g.get(Calendar.DATE));
        
     }
 }
