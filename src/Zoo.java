@@ -28,11 +28,9 @@ public class Zoo {
         b.setPrezzo(k);
         System.out.println(b.getPrezzo());
         System.out.println(i.getNome()+" "+i.getCognome());
-        System.out.println(i.getCodImpiegato());
-        System.out.println (g.get(Calendar.DATE));
+        System.out.println(i.getCodImpiegato());  
         System.out.println(sdf.format(g.getTime()));
-        System.out.println (g.get(Calendar.DATE));
-       System.out.println(a.getNome());
-       System.out.println(a.getSpecie());
+        System.out.println(a.getNome());
+        System.out.println(a.getSpecie());
     }
 }
