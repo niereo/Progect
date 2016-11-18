@@ -16,7 +16,7 @@ public class Direttore {
     {
       this.nome = n;
       this.cognome = c;
-      System.out.println ("Il direttore dello zoo è " + c +" "+  n);
+      System.out.println ("Il direttore dello zoo è " + n +" "+  c);
     }
     public String getNome()
     {
