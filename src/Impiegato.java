@@ -9,10 +9,10 @@
  * @author Roberto
  */
 public class Impiegato {
-    private final String nome;
-    private final String cognome;
-    private final String codImpiegato;
-    private boolean impegnato;
+    protected final String nome;
+    protected final String cognome;
+    protected final String codImpiegato;
+    protected boolean impegnato;
     public Impiegato(String n,String c,String cod)
     {
      this.nome = n;
