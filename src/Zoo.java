@@ -15,10 +15,12 @@ public class Zoo {
         System.out.println("zoo");
         Animale a = new Animale("Alex", "leone");
         Impiegato i = new Impiegato ("Franco","Buccia","12345678");
+        Direttore d = new Direttore ("Adolf","Hitler");
         Biglietto b = new Biglietto(p);
         b.setPrezzo(k);
         System.out.println(b.getPrezzo());
         System.out.println(i.getNome()+" "+i.getCognome());
         System.out.println(i.getCodImpiegato());
+       
     }
 }
